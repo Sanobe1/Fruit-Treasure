@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ActivityEnd"
+        android:background="#000">
+
+
+    <ImageView
+            android:alpha="0.4"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+    <TextView
+            android:textColor="#D7B052"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:text="@string/txt"
+            android:textSize="50sp"
+            android:fontFamily="@font/grand_hotel"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            tools:ignore="MissingConstraints"
+    />
+
+    <Button
+            android:id="@+id/menuEnd"
+            android:tag="menuEnd"
+            android:background="@drawable/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginTop="100dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Menu"
+            android:onClick="onClick"
+    />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000">
+
+    <ImageView
+            android:alpha="0.4"
+            android:background="@drawable/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    <TextView
+            android:id="@+id/thirdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Will you choose a diamond instead of berries?"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:textSize="45sp"
+            android:fontFamily="@font/grand_hotel"
+            android:textColor="#FFC800"/>
+
+    <Button
+            android:id="@+id/cherry3"
+            android:tag="cherry3"
+            android:onClick="onClick"
+            android:background="@drawable/el1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/thirdTextView"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="16dp"
+            />
+
+    <Button
+            android:onClick="onClick"
+            android:id="@+id/raspberries3"
+            android:tag="raspberries3"
+            android:background="@drawable/el2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/thirdTextView"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            />
+
+    <Button
+            android:onClick="onClick"
+            android:tag="grape3"
+            android:background="@drawable/el3"
+            android:id="@+id/grape3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="50dp"
+            />
+
+    <Button
+            android:onClick="onClick"
+            android:tag="diamond3"
+            android:background="@drawable/el6"
+            android:id="@+id/diamond3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="50dp"
+    />
+
+</RelativeLayout>

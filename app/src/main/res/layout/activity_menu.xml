@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".MenuActivity">
+
+
+
+
+    <TextView
+            android:id="@+id/textview1"
+            android:textColor="#D7B052"
+            android:textSize="70sp"
+            android:text="Fruit Treasure"
+            android:fontFamily="@font/grand_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+    />
+
+
+
+    <Button
+            android:id="@+id/policy"
+            android:tag="policy"
+            android:text="PrivacyPolicy"
+            android:onClick="onClick"
+            android:fontFamily="@font/grand_hotel"
+            android:background="@drawable/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:layout_marginStart="50dp"
+
+    />
+
+    <Button
+            android:id="@+id/rules"
+            android:onClick="onClick"
+            android:tag="rules"
+            android:text="Rules"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/grand_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="150dp"
+            android:layout_marginEnd="50dp"
+    />
+
+    <Button
+            android:id="@+id/exit"
+            android:onClick="onClick"
+            android:tag="exit"
+            android:text="Exit"
+            android:background="@drawable/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+    />
+
+    <Button
+            android:id="@+id/start"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textview1"
+            android:onClick="onClick"
+            android:tag="start"
+            android:text="Start"
+            android:fontFamily="@font/grand_hotel"
+            android:background="@drawable/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+</RelativeLayout>

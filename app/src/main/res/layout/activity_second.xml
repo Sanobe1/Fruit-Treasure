@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000">
+
+    <ImageView
+            android:alpha="0.4"
+            android:background="@drawable/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:fontFamily="@font/grand_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:text="You choose berries or bells?"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:textColor="#FFC800"
+    />
+
+
+
+
+    <Button
+            android:id="@+id/cherry2"
+            android:tag="cherry2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="200dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/textView"
+            android:onClick="onClick"
+            android:textSize="20dp"
+            android:background="@drawable/el1"
+    />
+
+    <Button
+            android:id="@+id/grape2"
+            android:tag="grape2"
+            android:onClick="onClick"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="200dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:textColor="#000"
+            android:background="@drawable/el3"
+    />
+
+    <Button
+            android:id="@+id/bells2"
+            android:onClick="onClick"
+            android:tag="bells2"
+            android:background="@drawable/el5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+    />
+
+</RelativeLayout>
