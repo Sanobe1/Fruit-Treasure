@@ -16,6 +16,12 @@ public class ActivityEnd extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_end);
+
+        YoYo.with(Techniques.Tada)
+                .duration(700)
+                .repeat(1)
+                .playOn(findViewById(R.id.textView));
+
     }
 
     public void onClick(View v) {

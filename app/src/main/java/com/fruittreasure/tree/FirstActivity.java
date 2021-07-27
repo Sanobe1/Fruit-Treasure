@@ -17,6 +17,11 @@ public class FirstActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_first);
 
+        YoYo.with(Techniques.Tada)
+                .duration(700)
+                .repeat(1)
+                .playOn(findViewById(R.id.textView));
+
     }
 
     public void onClick(View v) {

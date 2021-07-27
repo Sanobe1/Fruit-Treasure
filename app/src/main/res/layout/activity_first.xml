@@ -50,7 +50,6 @@
             android:layout_height="150dp"
             android:layout_below="@+id/textView"
             android:layout_alignParentEnd="true"
-            android:textColor="#000"
             android:background="@drawable/el2"/>
 
 </RelativeLayout>
