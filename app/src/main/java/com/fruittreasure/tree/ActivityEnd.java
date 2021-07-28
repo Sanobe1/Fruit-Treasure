@@ -31,6 +31,8 @@ public class ActivityEnd extends AppCompatActivity {
 
             case "menuEnd": {
                 startActivity(new Intent(this, MenuActivity.class));
+
+                finish();
                 break;
             }
         }

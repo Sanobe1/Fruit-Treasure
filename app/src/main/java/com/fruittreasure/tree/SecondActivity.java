@@ -36,6 +36,8 @@ public class SecondActivity extends AppCompatActivity {
 
             case "bells2": {
                 startActivity(new Intent(this, ThirdActivity.class));
+
+                finish();
                 break;
             }
 

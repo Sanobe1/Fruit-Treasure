@@ -23,6 +23,8 @@ public class ActivityRules extends AppCompatActivity {
 
             case "menuRules": {
                 startActivity(new Intent(this, MenuActivity.class));
+
+                finish();
                 break;
             }
         }

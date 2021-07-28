@@ -30,17 +30,23 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
             case "start" : {
                 startActivity(new Intent(this, FirstActivity.class));
+
+                finish();
                 break;
             }
 
             case "policy": {
                 startActivity(new Intent(this, ActivityPolicy.class));
+
+                finish();
                 break;
             }
 
 
             case "rules": {
                 startActivity(new Intent(this, ActivityRules.class));
+
+                finish();
                 break;
             }
 

@@ -37,6 +37,8 @@ public class ThirdActivity extends AppCompatActivity {
 
             case "diamond3": {
                 startActivity(new Intent(this,ActivityEnd .class));
+
+                finish();
                 break;
             }
             default:
